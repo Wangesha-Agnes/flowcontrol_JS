@@ -40,14 +40,27 @@ function changedArray(arr){
  };
  
  
- let fruits = ['apple','plum','strawberries','kiwi']
+ let fruits = ['apple','plum','banana','strawberries','kiwi']
  fruitsContinue(fruits);
  
  
  //Write a function that accepts an array of strings and console.logs each element using a for loop.
+ const arrayOfStrings=(arrStr)=>{
+    for (i=0; i<arrStr.length;i++){
+        console.log(arrStr[i])
+    }
+ }
+ arrayOfStrings(["Agnes","Dodohe","Wangesha"])
  
- 
- function numbers = (arr) =>
+ //Write a JavaScript function that takes a string as input and reverses it using a while loop. The function should return the reversed string.
+
+ function reverseString(str){
+    let i = str.length
+    while (i--){
+        console.log(str[i])
+    }
+ }
+ reverseString("Agnes")
  
  
  
